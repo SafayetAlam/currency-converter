@@ -14,6 +14,4 @@ https://user-images.githubusercontent.com/86869464/200998394-f13c71bc-20ab-42f7-
 * JSX
 * CSS
 
-# Live Demo : https://safayetalam.github.io/Wiki-Search-App/
-
 > GitHub [@SafayetAlam](https://github.com/SafayetAlam) &nbsp;&middot;&nbsp;
