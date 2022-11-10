@@ -15,10 +15,10 @@ function App() {
 	let toAmount, fromAmount;
 	if (amountInFromCurrency) {
 		fromAmount = amount;
-		toAmount = amount * exchangeRate;
+		toAmount = parseFloat(amount * exchangeRate).toFixed(2);
 	} else {
 		toAmount = amount;
-		fromAmount = amount / exchangeRate;
+		fromAmount = parseFloat(amount / exchangeRate).toFixed(2);
 	}
 
 	useEffect(() => {
@@ -59,11 +59,9 @@ function App() {
 
 	return (
 		<main className="container">
-			<header>
-				<h2>
-					<i class="fa-solid fa-coins"></i> Currency Converter
-				</h2>
-			</header>
+			<h2>
+				<i className="fa-solid fa-coins"></i> Currency Converter
+			</h2>
 			<hr />
 			<div className="converter">
 				<CurrencyRow
@@ -75,9 +73,9 @@ function App() {
 				/>
 				<div className="loader">
 					{amountInFromCurrency ? (
-						<i class="fa-solid fa-angles-down"></i>
+						<i className="fa-solid fa-angles-down"></i>
 					) : (
-						<i class="fa-solid fa-angles-up"></i>
+						<i className="fa-solid fa-angles-up"></i>
 					)}
 				</div>
 				<CurrencyRow
