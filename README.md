@@ -14,4 +14,4 @@ https://user-images.githubusercontent.com/86869464/200998394-f13c71bc-20ab-42f7-
 * JSX
 * CSS
 
-> GitHub [@SafayetAlam](https://github.com/SafayetAlam) &nbsp;&middot;&nbsp;
+> GitHub [@safayetdib](https://github.com/safayetdib) &nbsp;&middot;&nbsp;
